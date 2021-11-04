@@ -144,12 +144,13 @@ while i<=7:
 '''
 # i=int(input("请输入第1个数字"))
 # j=int(input("请输入第2个数字"))
-# sum=0
-# for a in range(1,i+1):
-#     for b in range(1,j+1):
-#         if b<=a:
-#             print(b,"*",a,"=",a*b,end="\t")
+# while i>=1:
+#     j=1
+#     while j<=i:
+#         print(j,"*",i,"=",i*j,end="\t")
+#         j+=1
 #     print()
+#     i-=1
 
 '''
 编程实现99乘法表的倒叙打印
